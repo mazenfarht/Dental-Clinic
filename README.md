@@ -61,11 +61,9 @@ The website is suitable for clinics, dentists, and healthcare businesses looking
 Dental-Clinic/
 │
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
+├── style.css
+├── script.js
+├── images
 └── README.md
 ```
 
