@@ -133,7 +133,6 @@ The goal of this project is to demonstrate modern frontend development skills by
 Frontend Developer
 
 - LinkedIn: https://linkedin.com/in/mazen-mostafa-353102225
-- GitHub: https://github.com/mazenfarht
 
 ---
 

@@ -347,7 +347,6 @@ document.addEventListener("DOMContentLoaded", () => {
 // ============================================
 // 8. FAQ ACCORDION
 // ============================================
-
 class FAQ {
   constructor() {
     this.faqItems = document.querySelectorAll(".faq-item");
@@ -357,6 +356,7 @@ class FAQ {
   init() {
     this.faqItems.forEach((item) => {
       const question = item.querySelector(".faq-question");
+
       question.addEventListener("click", () => this.toggleFAQ(item));
     });
   }
@@ -366,17 +366,26 @@ class FAQ {
 
     // Close all other items
     this.faqItems.forEach((faqItem) => {
+      const answer = faqItem.querySelector(".faq-answer");
+
       if (faqItem !== item) {
         faqItem.classList.remove("active");
+        answer.style.maxHeight = null;
       }
     });
 
-    // Toggle current item
-    item.classList.toggle("active", !isActive);
+    const answer = item.querySelector(".faq-answer");
+
+    if (isActive) {
+      item.classList.remove("active");
+      answer.style.maxHeight = null;
+    } else {
+      item.classList.add("active");
+      answer.style.maxHeight = answer.scrollHeight + "px";
+    }
   }
 }
 
-// Initialize FAQ
 new FAQ();
 
 // ============================================
