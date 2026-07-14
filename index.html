@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="SmileBright Dental Clinic - Premium dental care services with experienced doctors and modern facilities"
+    />
+    <meta
+      name="keywords"
+      content="dental clinic, dentist, teeth cleaning, implants, orthodontics, cosmetic dentistry"
+    />
+    <meta name="theme-color" content="#0066cc" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./1.png" />
+
+    <title>SmileBright</title>
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts - Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loading Animation -->
+    <div id="loading" class="loading-screen">
+      <div class="loader">
+        <div class="loader-inner"></div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <div class="nav-logo">
+          <i class="fas fa-tooth"></i>
+          <span>SmileBright</span>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#doctors" class="nav-link">Doctors</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <!-- CTA & Mobile Toggle -->
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark mode"
+          >
+            <i class="fas fa-moon"></i>
+          </button>
+          <a href="#appointment" class="btn btn-primary nav-cta"
+            >Book Appointment</a
+          >
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <!-- Animated Background -->
+      <div class="hero-bg">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Your Smile Is Our Mission</h1>
+          <p class="hero-subtitle">
+            Experience premium dental care with our team of expert dentists
+            using state-of-the-art technology
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#appointment" class="btn btn-primary"
+              >Book Your Appointment</a
+            >
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+
+          <!-- Floating Stats -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <div class="stat-number">5000+</div>
+              <div class="stat-label">Happy Patients</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">8</div>
+              <div class="stat-label">Expert Doctors</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="hero-img-wrapper">
+            <img
+              src="https://www.creighton.edu/sites/default/files/styles/magnific_full/public/2021-12/Doctor-Dental-Surgery-Program5.jpg.webp?itok=85XOwwd0"
+              alt="Dentist with patient"
+              loading="lazy"
+            />
+            <div class="floating-card card-1">
+              <i class="fas fa-smile"></i>
+              <span>100% Safe</span>
+            </div>
+            <div class="floating-card card-2">
+              <i class="fas fa-certificate"></i>
+              <span>Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>About Our Clinic</h2>
+          <p>
+            Dedicated to providing exceptional dental care and beautiful smiles
+          </p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="https://rident.b-cdn.net/wp-content/uploads/2022/08/%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86-2.jpg?w=500&h=500&fit=crop"
+              alt="Modern dental clinic"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="about-text">
+            <div class="about-card">
+              <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+              <p>
+                To provide the highest quality dental care in a comfortable,
+                welcoming environment using the latest technology and
+                techniques.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3><i class="fas fa-eye"></i> Our Vision</h3>
+              <p>
+                To be the most trusted and innovative dental clinic, recognized
+                for excellence in patient care and transformative results.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3><i class="fas fa-check-circle"></i> Why Choose Us</h3>
+              <ul class="benefits-list">
+                <li>
+                  <i class="fas fa-check"></i> Experienced and certified
+                  dentists
+                </li>
+                <li><i class="fas fa-check"></i> State-of-the-art equipment</li>
+                <li>
+                  <i class="fas fa-check"></i> Comfortable and modern facility
+                </li>
+                <li><i class="fas fa-check"></i> Patient-centered approach</li>
+                <li><i class="fas fa-check"></i> Affordable pricing plans</li>
+                <li><i class="fas fa-check"></i> Extended working hours</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>Comprehensive dental solutions for all your needs</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Teeth Cleaning -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-spray-can"></i>
+            </div>
+            <h3>Teeth Cleaning</h3>
+            <p>
+              Professional cleaning to remove plaque and tartar, keeping your
+              teeth healthy and bright
+            </p>
+            <a href="#appointment" class="service-link"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service 2: Dental Implants -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tooth"></i>
+            </div>
+            <h3>Dental Implants</h3>
+            <p>
+              Permanent replacement for missing teeth that look and feel
+              completely natural
+            </p>
+            <a href="#appointment" class="service-link"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service 3: Orthodontics -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-align-center"></i>
+            </div>
+            <h3>Orthodontics</h3>
+            <p>
+              Teeth alignment solutions including braces and clear aligners for
+              a perfect smile
+            </p>
+            <a href="#appointment" class="service-link"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service 4: Teeth Whitening -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Teeth Whitening</h3>
+            <p>
+              Professional whitening treatments for a brighter, more confident
+              smile in just one visit
+            </p>
+            <a href="#appointment" class="service-link"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service 5: Root Canal -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <h3>Root Canal</h3>
+            <p>
+              Painless root canal treatment to save your tooth and eliminate
+              infection
+            </p>
+            <a href="#appointment" class="service-link"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service 6: Pediatric Dentistry -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-child"></i>
+            </div>
+            <h3>Pediatric Dentistry</h3>
+            <p>
+              Gentle and friendly dental care for children in a fun, welcoming
+              environment
+            </p>
+            <a href="#appointment" class="service-link"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service 7: Cosmetic Dentistry -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-sparkles"></i>
+            </div>
+            <h3>Cosmetic Dentistry</h3>
+            <p>
+              Transform your smile with veneers, bonding, and other aesthetic
+              procedures
+            </p>
+            <a href="#appointment" class="service-link"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- Service 8: Emergency Care -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-bell"></i>
+            </div>
+            <h3>Emergency Care</h3>
+            <p>
+              Immediate care for dental emergencies with dedicated support
+              available 24/7
+            </p>
+            <a href="#appointment" class="service-link"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Meet Our Doctors</h2>
+          <p>Expert dentists dedicated to your dental health</p>
+        </div>
+
+        <div class="doctors-grid">
+          <!-- Doctor 1 -->
+          <div class="doctor-card">
+            <div class="doctor-image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXa5Dbspa0ocFwpRC43MjGiakAlbsgAdjwUt-xhYWE3Q&s=10"
+                alt="Dr. Sarah Johnson"
+                loading="lazy"
+              />
+              <div class="doctor-overlay">
+                <div class="social-links">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. Sarah Johnson</h3>
+              <p class="doctor-role">Chief Dentist & Implantologist</p>
+              <p class="doctor-exp">12 years experience</p>
+            </div>
+          </div>
+
+          <!-- Doctor 2 -->
+          <div class="doctor-card">
+            <div class="doctor-image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTetC-GJk2AS5-50HOeeCSP3rhDzWB1VXIybTHyVf3cJgf5w_tK-FMKsU9Y&s=10"
+                alt="Dr. Michael Chen"
+                loading="lazy"
+              />
+              <div class="doctor-overlay">
+                <div class="social-links">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. Michael Chen</h3>
+              <p class="doctor-role">Orthodontist Specialist</p>
+              <p class="doctor-exp">8 years experience</p>
+            </div>
+          </div>
+
+          <!-- Doctor 3 -->
+          <div class="doctor-card">
+            <div class="doctor-image">
+              <img
+                src="https://img.magnific.com/free-photo/stomatologist-doctor-explaining-proper-dental-hygiene-patient-holding-sample-human-jaw_158595-7678.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="Dr. Emma Wilson"
+                loading="lazy"
+              />
+              <div class="doctor-overlay">
+                <div class="social-links">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. Emma Wilson</h3>
+              <p class="doctor-role">Cosmetic Dentist</p>
+              <p class="doctor-exp">10 years experience</p>
+            </div>
+          </div>
+
+          <!-- Doctor 4 -->
+          <div class="doctor-card">
+            <div class="doctor-image">
+              <img
+                src="https://www.creighton.edu/sites/default/files/styles/magnific_full/public/2021-12/Doctor-Dental-Surgery-Program6.jpg.webp?itok=ewYKYixj"
+                alt="Dr. James Patterson"
+                loading="lazy"
+              />
+              <div class="doctor-overlay">
+                <div class="social-links">
+                  <a href="#" aria-label="Facebook"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="#" aria-label="Twitter"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" aria-label="LinkedIn"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="doctor-info">
+              <h3>Dr. James Patterson</h3>
+              <p class="doctor-role">Pediatric Dentist</p>
+              <p class="doctor-exp">9 years experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Why Choose SmileBright</h2>
+          <p>Excellence in every aspect of dental care</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-microscope"></i>
+            </div>
+            <h3>Advanced Technology</h3>
+            <p>
+              Using latest dental equipment for accurate diagnosis and effective
+              treatment
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-user-md"></i>
+            </div>
+            <h3>Expert Team</h3>
+            <p>
+              Certified dentists with years of experience and continuous
+              training
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-couch"></i>
+            </div>
+            <h3>Comfortable Environment</h3>
+            <p>
+              Modern, clean facility designed for your comfort and relaxation
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>Patient Care</h3>
+            <p>Personalized treatment plans tailored to your specific needs</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-tag"></i>
+            </div>
+            <h3>Affordable Pricing</h3>
+            <p>Competitive rates with flexible payment plans for your budget</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Extended Hours</h3>
+            <p>Early morning and evening appointments to fit your schedule</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+      <div class="section-container">
+        <div class="stats-wrapper">
+          <div class="stat-box">
+            <div class="stat-value counter" data-target="5000">0</div>
+            <div class="stat-text">Happy Patients</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-value counter" data-target="15">0</div>
+            <div class="stat-text">Years Experience</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-value counter" data-target="8">0</div>
+            <div class="stat-text">Expert Doctors</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-value counter" data-target="25">0</div>
+            <div class="stat-text">Awards Won</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>What Our Patients Say</h2>
+          <p>Real stories from satisfied patients</p>
+        </div>
+
+        <div class="testimonials-wrapper">
+          <!-- Testimonial Slider Container -->
+          <div class="testimonials-slider" id="testimonialsSlider">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  "SmileBright changed my life! The team is so professional and
+                  caring. My teeth look amazing and I feel so much more
+                  confident now. Highly recommended!"
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop"
+                    alt="Sarah"
+                    loading="lazy"
+                  />
+                  <div>
+                    <p class="author-name">Sarah Mitchell</p>
+                    <p class="author-title">Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  "Best dental experience ever! Dr. Johnson is amazing and the
+                  facility is state-of-the-art. No more anxiety about dental
+                  visits for me!"
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop"
+                    alt="James"
+                    loading="lazy"
+                  />
+                  <div>
+                    <p class="author-name">James Rodriguez</p>
+                    <p class="author-title">Business Owner</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  "I had my dental implants done here and the results exceeded
+                  all my expectations. The team's attention to detail is
+                  incredible!"
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop"
+                    alt="Emily"
+                    loading="lazy"
+                  />
+                  <div>
+                    <p class="author-name">Emily Thompson</p>
+                    <p class="author-title">Lawyer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  "Fantastic service! The dentists are knowledgeable and the
+                  staff is incredibly friendly. My whole family comes here now!"
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop"
+                    alt="David"
+                    loading="lazy"
+                  />
+                  <div>
+                    <p class="author-name">David Chen</p>
+                    <p class="author-title">Entrepreneur</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 5 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  "Got my teeth whitened and it looks amazing! The pain-free
+                  experience was surprising. SmileBright is definitely my go-to
+                  clinic!"
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop"
+                    alt="Jessica"
+                    loading="lazy"
+                  />
+                  <div>
+                    <p class="author-name">Jessica Adams</p>
+                    <p class="author-title">Photographer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Controls -->
+          <div class="slider-controls">
+            <button
+              class="slider-btn prev"
+              id="prevTestimonial"
+              aria-label="Previous testimonial"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="slider-dots" id="sliderDots"></div>
+            <button
+              class="slider-btn next"
+              id="nextTestimonial"
+              aria-label="Next testimonial"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+      <div class="section-container">
+        <div class="appointment-wrapper">
+          <div class="appointment-header">
+            <h2>Book Your Appointment</h2>
+            <p>Schedule your visit at SmileBright Dental Clinic</p>
+          </div>
+
+          <form class="appointment-form" id="appointmentForm">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Doe"
+                required
+              />
+              <span class="error-message" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+              />
+              <span class="error-message" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+1 (555) 123-4567"
+                required
+              />
+              <span class="error-message" id="phoneError"></span>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required />
+                <span class="error-message" id="dateError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required />
+                <span class="error-message" id="timeError"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="service">Select Service</label>
+              <select id="service" name="service" required>
+                <option value="">Choose a service...</option>
+                <option value="cleaning">Teeth Cleaning</option>
+                <option value="implants">Dental Implants</option>
+                <option value="orthodontics">Orthodontics</option>
+                <option value="whitening">Teeth Whitening</option>
+                <option value="root-canal">Root Canal</option>
+                <option value="pediatric">Pediatric Dentistry</option>
+                <option value="cosmetic">Cosmetic Dentistry</option>
+                <option value="emergency">Emergency Care</option>
+              </select>
+              <span class="error-message" id="serviceError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Additional Message (Optional)</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tell us about any concerns or specific requests..."
+                rows="4"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large">
+              Confirm Appointment
+            </button>
+            <div class="success-message" id="successMessage"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Find answers to common questions about our services</p>
+        </div>
+
+        <div class="faq-container">
+          <!-- FAQ Item 1 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How do I schedule an appointment?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                You can schedule an appointment through our website by filling
+                out the appointment form, calling us directly at +1 (555)
+                123-4567, or visiting our clinic in person. We offer flexible
+                scheduling to accommodate your needs.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What should I bring to my first visit?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Please bring a valid ID, insurance card if you have dental
+                coverage, and any relevant medical history. If you've had recent
+                dental work elsewhere, bring those records if available.
+                Arriving 10-15 minutes early helps us process your information
+                smoothly.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Do you accept insurance?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes, we accept most major dental insurance plans. Our staff can
+                help verify your coverage and explain your benefits. We also
+                offer flexible payment plans for uninsured patients and
+                financing options for major procedures.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Are your procedures painless?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We use modern anesthesia and advanced techniques to ensure
+                minimal discomfort during procedures. Our dentists are highly
+                skilled and prioritize your comfort. Most patients report that
+                procedures are much more comfortable than they expected.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How often should I visit the dentist?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We recommend visiting the dentist at least twice a year for
+                regular check-ups and cleanings. However, some patients with
+                specific conditions may need more frequent visits. Your dentist
+                will create a personalized schedule based on your oral health.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What is your cancellation policy?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                We require 24 hours notice for cancellations to avoid any
+                cancellation fees. If you need to reschedule, simply contact us
+                as soon as possible. We understand that emergencies happen and
+                will work with you when possible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <p>We'd love to hear from you. Contact us today!</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <h3>Visit Us</h3>
+              <p>123 Dental Street</p>
+              <p>New York, NY 10001</p>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <h3>Call Us</h3>
+              <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+              <p><a href="tel:+15559876543">+1 (555) 987-6543</a></p>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h3>Email Us</h3>
+              <p>
+                <a href="mailto:info@smilebrightdentalclinic.com"
+                  >info@smilebrightdentalclinic.com</a
+                >
+              </p>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h3>Working Hours</h3>
+              <p>Mon - Fri: 8:00 AM - 8:00 PM</p>
+              <p>Sat: 9:00 AM - 5:00 PM</p>
+              <p>Sun: Closed</p>
+            </div>
+          </div>
+
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290255!2d-74.00601!3d40.71455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259e4b08e0d2f%3A0x7f7fc9e93da86f36!2s123%20Dental%20Street%2C%20New%20York%2C%20NY%2010001!5e0!3m2!1sen!2sus!4v1234567890"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <!-- Footer Column 1 -->
+          <div class="footer-column">
+            <h4>SmileBright</h4>
+            <p>Your trusted partner in dental health and beautiful smiles.</p>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Footer Column 2 -->
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#doctors">Doctors</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Column 3 -->
+          <div class="footer-column">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Teeth Cleaning</a></li>
+              <li><a href="#services">Dental Implants</a></li>
+              <li><a href="#services">Orthodontics</a></li>
+              <li><a href="#services">Teeth Whitening</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Column 4 -->
+          <div class="footer-column">
+            <h4>Newsletter</h4>
+            <p>Subscribe for dental tips and special offers</p>
+            <form class="newsletter-form" id="newsletterForm">
+              <input type="email" placeholder="Your email" required />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>&copy; 2026 MMS. All rights reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
