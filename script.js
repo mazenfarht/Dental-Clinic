@@ -584,7 +584,7 @@ class ScrollReveal {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.style.animation = "slideInUp 0.6s ease-out forwards";
+            // entry.target.style.animation = "slideInUp 0.6s ease-out forwards";
             observer.unobserve(entry.target);
           }
         });
