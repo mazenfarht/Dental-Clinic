@@ -553,7 +553,7 @@ class Newsletter {
     if (emailRegex.test(email)) {
       // Show success
       input.value = "";
-      input.style.borderColor = "#10b981";
+      input.style.borderColor = "var(--success)";
       setTimeout(() => {
         input.style.borderColor = "";
       }, 2000);
